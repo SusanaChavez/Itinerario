@@ -1,0 +1,8 @@
+POST http://localhost:3500/crearCuenta
+Content-Type: application/json
+
+{
+    "correo": "susana.chvz@gmail.com",
+    "clave": "123",
+    "confirmacion": "123"
+}

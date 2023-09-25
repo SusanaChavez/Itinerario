@@ -1,0 +1,25 @@
+<div class="container p-4">
+  <div class="row">
+    {{#each datos}}
+      <div class="col-md-3">
+        <div class="card text-center">
+          <div class="card-body">
+            <a href="">
+              <h3 class="card-title text.uppercase">
+                {{nombre}}
+              </h3>
+            </a>
+            <p class="m-2">{{rol}}</p>
+          </div>
+        </div>
+      </div>
+    {{else}}
+      <div class="col-md-4 mx-auto">
+        <div class="card card-body text-center">
+          <p>No hay tarjetas.</p>
+          <a href="/links/add">Crea una!!!</a>
+        </div>
+      </div>  
+    {{/each}}
+  </div>
+</div>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/recursos/css/style.css">
+</head>
+<body>
+    <div class="fondoTransparente">
+ 
+    <div class="registro-form">
+        <h1>Formulario Registro</h1>
+        <form action="/registrar" method="post">
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="" required>
+
+            <label for="usuario">Nombre Completo</label>
+            <input type="text" name="nombre" id="" required>
+
+            <label for="rol">Rol</label>
+            <select name="rol" id="rol" class="select-css">
+                <option value="admin">Admin</option>
+                <option value="integrante">Integrante</option>
+            </select>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" id="" required>
+
+            <div style="display: inline;">
+                <a href="/" class="btn-cancelar">Cancelar</a><input type="submit" value="Enviar" class="btn-enviar">
+            </div>
+        </form>
+
+
+    </div>
+</div>
+   
+</body>
+</html>

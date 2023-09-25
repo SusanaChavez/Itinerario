@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+* {
+    font-family: 'Exo 2', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headerPadre{
+background-color: rgb(34, 32, 32);
+}
+
+.barraNav{
+    display: inline-block;
+    margin: 1.5rem;
+    font-size: 1.4rem;
+}
+.iniciar{
+    font-size: 1rem;
+    text-align: right;
+    margin-right: 0.5rem;
+}
+.botonesNav{
+    text-decoration: none;
+    color: white;
+}
+.botonInicio{
+    font-size: 1.0rem;
+    color:#89d68b;
+}
+.listaPadre{
+     text-align: center;
+}
+.imagenFooter{
+    display: inline-block;
+}
+.imgArriba{
+    width: 15rem;
+    margin-left: 1rem;
+}
+.imgMain{
+    background-color: rgba(28,28,28,0.56);
+    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(28,28,28,0.56),rgba(28,28,28,0.56)), url(/recursos/assets/img/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding-top: 7%;
+    padding-right: 3%;
+    padding-bottom: 7%;
+    padding-left: 3%;
+    text-align: center;
+}
+.letraMain{
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+/* empieza el footer */
+.footerPadre{
+    width: 15rem;
+    height: auto;
+    display: inline-block;
+    padding-top: 0.1rem
+
+}
+.footerHijo{
+    text-align: center;
+}
+.footerImg{
+   /* background-color: rgb(61, 228, 131);
+                     #a1b390   */
+   background-color: #6a8f47;
+     padding-bottom: 3rem;
+    text-align: center;
+    padding-top: 7rem;
+    
+    
+}
+.textoH2{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.textoFooter{
+    height: auto;
+    display: inline-block;
+    width: 15rem;
+    padding-bottom: 5rem;
+    
+}

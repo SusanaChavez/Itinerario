@@ -1,0 +1,46 @@
+<nav class="navbar main-navegacion navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <img src="/img/icono3.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+        Itinerario
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <div class="navbar-nav mx-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quienes Somos</a>
+          </li>
+          {{#if user}}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
+              Link
+            </a>
+            <ul class="dropdown-menu" style="text-emphasis-color;">
+              <li><a class="dropdown-item" href="/profile">Perfil</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else</a></li>
+            </ul>
+          </li>
+          {{/ if}}
+        </div>
+        {{#if user}}
+          <li class="navbar-nav ms-auto" style="font-size: 1.5rem;">
+            <a href="/cerrarsesion" class="nav-link">Cerrar Sesión</a>
+          </li>
+        {{else}}
+          <li class="navbar-nav ms-auto" style="font-size: 1.5rem;">
+            <a href="/iniciarsesion" class="nav-link">Iniciar Sesión</a>
+          </li>
+        {{/if}}
+    </div>
+  </div>
+</nav>

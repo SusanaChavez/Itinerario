@@ -1,0 +1,140 @@
+.navbar-brand {
+    font-size: 4rem;
+    font-family: 'Rouge Script', 'Josefin Slab';
+}
+
+.nav-item a{
+    font-size: 1.5rem;
+    font-family: sans-serif, 'Alegreya Sans', 'Roboto Mono', 'Oswald';
+}
+
+main {
+    background-color: #f5f6f5;
+    display: inline;
+}
+main em {
+    font-family: 'Alegreya Sans', 'Oswald', 'Arizonia', 'Roboto Mono', sans-serif;
+/*    overflow: hidden; NUNCA HABILITAR ESTA OPCION*/
+    font-size: 1.8rem;
+}
+
+.index {
+    width: 100vw;
+    height: 100vh;   
+}
+
+/* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*/
+
+.masthead {
+ /*++   color: white; 
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    background: url('/img/fondo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+
+ */
+    background-color: rgba(28,28,28,0.56);
+    padding-top: 16rem;
+    background-image: linear-gradient(0deg, rgba(28,28,28,0.56),rgba(28,28,28,0.56)), url(/img/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    color: #ffffff;
+}
+/*
+.masthead h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 992px) {
+    .masthead h1 {
+        font-size: 5.5rem;
+
+*/
+.row {
+    background-color: #6a8f47;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    /* background-color: rgb(61, 228, 131);
+                      #a1b390   */
+     background-color: #6a8f47;
+     padding-bottom: 3rem;
+     display: inline-block;
+     padding-top: 7rem;   
+}
+
+.card-title {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+/*
+.card h3 {
+    font-family: 'Georgia', 'Times New Roman', 'Times', 'serif';
+    font-size: larger;
+}
+*/
+
+.card p {
+    font-family: 'Verdana', 'Oswald', 'Geneva', 'sans-serif';
+    font-size: large;
+    color: black;
+}
+
+.iniciar {
+    background-color: rgba(28, 28, 28, 0.56);
+    padding-top: 16rem;
+    background-image: linear-gradient(0deg, rgba(28,28,28,0.56),rgba(28,28,28,0.56)), url(/img/fondo1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.card-inicio {
+    background-color: #f5f6f5;
+    font-family: sans-serif, 'Alegreya Sans', 'Oswald', 'Arizonia', 'Roboto Mono';
+    overflow: hidden;
+    font-size: 3rem;
+
+}
+.btn-comenzar {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    background-color: #ffffff;
+ /*   color:rgba(158, 150, 43, 0.56);  */
+    color: #7e7530;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn-comenzar:hover, .btn-comenzar:active{
+    color: #fff;
+    background-color: #c7c404;
+    border-color: #c7c404;
+}
+.btn-comenzar:focus{
+    box-shadow: 0 0 0 3px #c7c404;
+}
